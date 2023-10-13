@@ -1,0 +1,25 @@
+{
+	"name": "Storageeventtrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "fromadlstoazuresqldatabase",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/landing/blobs/2023/",
+			"blobPathEndsWith": "06",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/3c826254-aa0f-4a64-94f8-d5f1e3a91bd6/resourceGroups/cloud-shell-storage-centralindia/providers/Microsoft.Storage/storageAccounts/madhureddystorageaccount",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
