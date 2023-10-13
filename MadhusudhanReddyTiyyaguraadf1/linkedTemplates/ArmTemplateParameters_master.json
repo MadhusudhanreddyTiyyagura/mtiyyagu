@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "MadhusudhanReddyTiyyaguraadf1"
+		},
+		"AmazonS31_secretAccessKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"madhureddystorageaccount_accountKey": {
+			"value": ""
+		},
+		"publicstorageaccount_linkedservice_accountKey": {
+			"value": ""
+		},
+		"AmazonS31_properties_typeProperties_accessKeyId": {
+			"value": "AKIARZJZCSXWTGMIKPNB"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://madhureddystorageaccount.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://madhureddystorageaccount.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://madhureddystorageaccount.dfs.core.windows.net/"
+		},
+		"madhureddystorageaccount_properties_typeProperties_url": {
+			"value": "https://madhureddystorageaccount.dfs.core.windows.net/"
+		},
+		"publicstorageaccount_linkedservice_properties_typeProperties_url": {
+			"value": "https://publicstoragemadbhu.dfs.core.windows.net/"
+		},
+		"Storageeventtrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/3c826254-aa0f-4a64-94f8-d5f1e3a91bd6/resourceGroups/cloud-shell-storage-centralindia/providers/Microsoft.Storage/storageAccounts/madhureddystorageaccount"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
